@@ -10,6 +10,8 @@ Telegram присылает голосовые сообщения в форма�
 """
 import io
 
+from utils import _compat  # noqa: F401  (должен идти до speech_recognition/pydub)
+
 import speech_recognition as sr
 from pydub import AudioSegment
 

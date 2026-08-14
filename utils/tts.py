@@ -6,6 +6,8 @@
 """
 import io
 
+from utils import _compat  # noqa: F401  (должен идти до pydub)
+
 from gtts import gTTS
 from pydub import AudioSegment
 
