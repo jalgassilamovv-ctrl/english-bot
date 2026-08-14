@@ -1,0 +1,47 @@
+{
+  "general": [
+    {"id": "sg01", "prompt_ru": "Расскажи, как прошёл твой день. Что было хорошего, а что — сложного?", "prompt_en": "Tell me about your day. What went well, and what was difficult?", "followups": ["Why was that part difficult?", "What would you do differently next time?", "How did that make you feel?"]},
+    {"id": "sg02", "prompt_ru": "Опиши свои планы на выходные.", "prompt_en": "Describe your plans for the weekend.", "followups": ["Who are you doing that with?", "Have you done this before?", "What are you most looking forward to?"]},
+    {"id": "sg03", "prompt_ru": "Если бы у тебя была неделя свободного времени, что бы ты сделал?", "prompt_en": "If you had a free week, what would you do?", "followups": ["Why did you choose that?", "Where would you go?", "Who would you take with you?"]},
+    {"id": "sg04", "prompt_ru": "Расскажи о городе, в котором ты вырос.", "prompt_en": "Tell me about the city where you grew up.", "followups": ["What do you miss most about it?", "How has it changed?", "Would you like to live there again?"]},
+    {"id": "sg05", "prompt_ru": "Какая привычка сильнее всего изменила твою жизнь?", "prompt_en": "What habit has changed your life the most?", "followups": ["How did you start that habit?", "What was hard about keeping it?", "Would you recommend it to others?"]},
+    {"id": "sg06", "prompt_ru": "Опиши свой обычный рабочий день от начала до конца.", "prompt_en": "Describe a typical work day of yours, from start to finish.", "followups": ["What part of the day is most productive for you?", "What would you change about it?", "How do you usually relax after work?"]},
+    {"id": "sg07", "prompt_ru": "Расскажи о фильме или книге, которая произвела на тебя впечатление.", "prompt_en": "Tell me about a movie or book that impressed you.", "followups": ["What was it about?", "Why did it stand out to you?", "Would you recommend it to a friend?"]},
+    {"id": "sg08", "prompt_ru": "Какая цель для тебя сейчас самая важная?", "prompt_en": "What goal is most important to you right now?", "followups": ["What steps are you taking toward it?", "What's the biggest obstacle?", "How will you know you've achieved it?"]},
+    {"id": "sg09", "prompt_ru": "Опиши свою идеальную субботу.", "prompt_en": "Describe your ideal Saturday.", "followups": ["What time would you wake up?", "Who would you spend it with?", "What would make it perfect?"]},
+    {"id": "sg10", "prompt_ru": "Расскажи о последнем путешествии, которое тебе понравилось.", "prompt_en": "Tell me about the last trip you enjoyed.", "followups": ["What surprised you the most?", "Would you go back?", "What would you tell a friend planning to go there?"]},
+    {"id": "sg11", "prompt_ru": "Как ты обычно принимаешь сложные решения?", "prompt_en": "How do you usually make difficult decisions?", "followups": ["Can you give an example?", "Do you ask others for advice?", "How do you know you made the right choice?"]},
+    {"id": "sg12", "prompt_ru": "Опиши человека, который на тебя сильно повлиял.", "prompt_en": "Describe a person who influenced you a lot.", "followups": ["What did you learn from them?", "How do you stay in touch now?", "What quality of theirs do you admire most?"]},
+    {"id": "sg13", "prompt_ru": "Какие новости на этой неделе привлекли твоё внимание?", "prompt_en": "What news caught your attention this week?", "followups": ["What's your opinion on it?", "How might it affect people?", "Did it change how you think about something?"]},
+    {"id": "sg14", "prompt_ru": "Опиши, как ты обычно проводишь утро.", "prompt_en": "Describe how you usually spend your morning.", "followups": ["What's the first thing you do after waking up?", "Do you have a morning routine?", "What would an ideal morning look like?"]},
+    {"id": "sg15", "prompt_ru": "Расскажи о навыке, который ты хочешь развить в этом году.", "prompt_en": "Tell me about a skill you want to develop this year.", "followups": ["Why is it important to you?", "How are you practicing it?", "What progress have you made so far?"]}
+  ],
+  "technical": [
+    {"id": "st01", "prompt_ru": "Опиши на английском, чем ты занимаешься на работе.", "prompt_en": "Describe, in English, what you do at work.", "followups": ["What's the most challenging part of your job?", "What tools or equipment do you use daily?", "Who do you usually collaborate with?"]},
+    {"id": "st02", "prompt_ru": "Расскажи о недавней проблеме на производстве и как вы её решили.", "prompt_en": "Tell me about a recent production problem and how it was solved.", "followups": ["What was the root cause?", "How long did it take to fix?", "What did you learn from it?"]},
+    {"id": "st03", "prompt_ru": "Объясни коллеге, как работает какой-либо процесс или оборудование, которое ты хорошо знаешь.", "prompt_en": "Explain to a colleague how a process or piece of equipment you know well works.", "followups": ["What safety steps are involved?", "What happens if it fails?", "How would you train a new worker on it?"]},
+    {"id": "st04", "prompt_ru": "Опиши, как ты бы объяснил задержку в проекте руководителю.", "prompt_en": "Describe how you would explain a project delay to your manager.", "followups": ["What caused the delay?", "What's your plan to catch up?", "How do you prevent this next time?"]},
+    {"id": "st05", "prompt_ru": "Расскажи о том, как проходит инструктаж по технике безопасности на твоём объекте.", "prompt_en": "Tell me how a safety briefing works at your site.", "followups": ["Who leads the briefing?", "What topics are usually covered?", "How often do briefings happen?"]},
+    {"id": "st06", "prompt_ru": "Опиши, как ты определяешь приоритеты задач в течение дня.", "prompt_en": "Describe how you prioritize tasks during your day.", "followups": ["What do you do when priorities conflict?", "How do you handle urgent requests?", "What tools help you stay organized?"]},
+    {"id": "st07", "prompt_ru": "Расскажи о совещании, в котором ты недавно участвовал.", "prompt_en": "Tell me about a meeting you recently took part in.", "followups": ["What was decided?", "Did you present anything?", "What would you improve about how it was run?"]},
+    {"id": "st08", "prompt_ru": "Опиши деталь или узел оборудования и его назначение, будто объясняешь новому сотруднику.", "prompt_en": "Describe a component or piece of equipment and its purpose, as if explaining it to a new employee.", "followups": ["What could go wrong with it?", "How is it maintained?", "Why is it important to the whole system?"]},
+    {"id": "st09", "prompt_ru": "Расскажи, как ты бы вёл переговоры с поставщиком о сроках поставки.", "prompt_en": "Tell me how you would negotiate delivery times with a supplier.", "followups": ["What would you say if they refuse?", "What's your backup plan?", "How do you build a good relationship with vendors?"]},
+    {"id": "st10", "prompt_ru": "Опиши шаги, которые ты предпринимаешь при диагностике неисправности.", "prompt_en": "Describe the steps you take when diagnosing a fault.", "followups": ["What tools do you use?", "How do you know when it's fixed?", "How do you document the fix?"]}
+  ],
+  "encouragement": [
+    "Отличная попытка! Продолжай в том же духе 💪",
+    "Ты делаешь заметный прогресс — так держать! 🚀",
+    "Каждый день практики приближает тебя к свободному английскому 🌱",
+    "Хорошая работа! Ошибки — это часть обучения, не переставай пробовать 👏",
+    "Ты сегодня использовал новые слова — это большой плюс! ⭐",
+    "Отлично, что ты не пропускаешь занятия. Постоянство решает всё! 🔥",
+    "Уверенность в разговоре растёт с каждым днём практики 🎯",
+    "Супер! Через месяц ты оглянешься и удивишься своему прогрессу 📈"
+  ],
+  "reengagement": [
+    "Привет! Вчера не получилось позаниматься — ничего страшного, продолжим сегодня? 😊",
+    "Скучал по тебе! Давай вернёмся к английскому — сегодня новая порция слов ждёт тебя 📚",
+    "Пропустить день — не проблема, главное не бросать. Готов продолжить?",
+    "Даже 5 минут сегодня лучше, чем ничего. Начнём с пары слов?"
+  ]
+}
