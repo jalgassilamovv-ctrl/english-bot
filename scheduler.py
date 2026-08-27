@@ -11,7 +11,12 @@ from telegram.ext import Application
 
 import config
 import db
-from handlers.smalltalk import TALK_ROUND_KEY, TALK_STATE_KEY, start_talk_for_chat
+from handlers.smalltalk import (
+    TALK_ROUND_KEY,
+    TALK_STATE_KEY,
+    TALK_USED_FOLLOWUPS_KEY,
+    start_talk_for_chat,
+)
 from handlers.words import send_daily_words
 from utils.ai_brain import pick_reengagement
 import json
@@ -52,6 +57,7 @@ async def evening_job(context):
             user_data = context.application.user_data[chat_id]
             user_data[TALK_STATE_KEY] = prompt
             user_data[TALK_ROUND_KEY] = 1
+            user_data[TALK_USED_FOLLOWUPS_KEY] = []
         except Exception:
             logger.exception("Не удалось отправить вечернюю рассылку для %s", chat_id)
 
